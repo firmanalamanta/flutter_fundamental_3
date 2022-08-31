@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_fundamental_3/image_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -49,13 +50,13 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Center(
         child: GestureDetector(
           onTap: _incrementCounter,
-          child: Column(
-            mainAxisAlignment : MainAxisAlignment.center;
-            children <Widget>[
-              const MyImageWidget(),
-              Text(
-                '$_counter',
-                style: Theme.of(context).textTheme.headline4,
+          child: Column ( 
+            mainAxisAlignment: MainAxisAlignment.center,
+           children: <Widget>[
+                const MyImageWidget(),
+                Text(
+                  '$_counter',
+                  style: Theme.of(context).textTheme.headline4,
               ),
             ],
         )),
