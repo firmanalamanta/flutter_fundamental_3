@@ -4,4 +4,4 @@ A new Flutter project.
 
 ## Getting Started
 
-![Screenshoot hello_world](images/logo_polinema1.png)
+![Screenshoot hello_world](images/praktikum1.png)
